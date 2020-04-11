@@ -1,0 +1,12 @@
+.idea/
+*.iml
+
+node_modules/
+
+# common places to put sensitive data
+data/
+files/
+attachments/
+templates/
+
+config.js
