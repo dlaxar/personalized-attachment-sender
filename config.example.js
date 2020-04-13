@@ -16,7 +16,12 @@ module.exports = {
 		// see https://github.com/andris9/nodemailer-html-to-text
 		"nodemailer-html-to-text": {
 
-		}
+		},
+
+		// see https://github.com/jonkemp/inline-css
+		"inline-css": {
+			// url defaults to '/'
+		},
 	},
 
 	// SMTP connection options for nodemailer

@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "csv-parse": "^4.8.8",
+    "inline-css": "^2.6.3",
     "nodemailer": "^6.4.6",
     "nodemailer-express-handlebars": "^4.0.0",
     "nodemailer-html-to-text": "^3.1.0"
