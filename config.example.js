@@ -23,6 +23,16 @@ module.exports = {
 			// url defaults to '/'
 		},
 	},
+	// SMTP connection options for nodemailer for DEV mode
+	// you could use etheral or something similar here
+	"dev_smtp": {
+		// see https://nodemailer.com/smtp/
+		"host": "smtp.example.com",
+		"auth": {
+			"user": "username",
+			"pass": "password"
+		}
+	},
 
 	// SMTP connection options for nodemailer
 	"smtp": {
