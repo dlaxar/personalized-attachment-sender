@@ -3,6 +3,8 @@
 This tools enables you to quickly send custom emails with personalized attachments. 
 Similar to mail merge function in Outlook but without the bullshit.
 
+Use https://gist.github.com/dlaxar/4987d6a5466edfc7be20c0794e515e99 to generate PDFs.
+
 ## Usage
 1. Make sure you've got everything installed by running `npm i`. 
 
