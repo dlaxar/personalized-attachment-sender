@@ -6,7 +6,7 @@ Similar to mail merge function in Outlook but without the bullshit.
 ## Usage
 1. Make sure you've got everything installed by running `npm i`. 
 
-2. Now copy the `config.example.js` and configure your emails. Get the attachments ready and 
+2. Now copy the `config.example.js` to `config.js` and configure your emails. Get the attachments ready and 
 make sure that they are somehow connectable to your list of recipients (eg. by having some sort of identifier 
 in the name like `customer_1234.pdf` and the same identifier in the csv like `John,Doe,1234`).
 
@@ -17,12 +17,14 @@ build your email templates.
 4. Write your mail template. Use [Handlebars](https://handlebarsjs.com/) for that. Each column name in the CSV 
 becomes the variable name for your Handlebars expressions.
 
-5. Run `node index.js` to start a dry run. No mails will be sent. 
-Run `node index.js print` to output all mails into files. No mails will be sent.
+5. Run `node personalized-attachment-sender.js` to start a dry run. No mails will be sent. 
+Run `node personalized-attachment-sender.js print` to output all mails into files. No mails will be sent.
 
 6. Check the outputs.
 
-7. If you're satisfied with your results run `node index.js run-actual`. ***Mails will be sent!***
+7. *Optional*: Use `node personalized-attachment-sender.js run-dev` to send it to the smtp catcher (we recommend https://ethereal.email/)
+
+8. If you're satisfied with your results run `node personalized-attachment-sender.js run-actual`. ***Mails will be sent!***
 
 ## Caveats
 
